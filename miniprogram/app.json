@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/center/center",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/userinfo/userinfo",
+    "pages/access/access",
+    "pages/access/msg/info",
+    "pages/access/msg/fail",
+    "pages/areainfo/areainfo",
+    "pages/linkus/linkus",
+    "pages/arealist/arealist",
+    "pages/qrcode/qrcode",
+    "pages/userlist/userlist",
+    "pages/record/record",
+    "pages/weui/msg/msg",
+    "pages/result/success/success",
+    "pages/result/fail/fail",
+    "pages/result/info/info",
+    "pages/loginwx/loginwx",
+    "pages/push/push",
+    "pages/scanCode/scan",
+    "pages/addInfo/addInfo"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "智云出入管理",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#0081ff",
+    "list": [
+      {
+        "pagePath": "pages/center/center",
+        "text": "主页",
+        "iconPath":"/static/icon/homepage.png",
+        "selectedIconPath":"/static/icon/homepage_fill.png"
+      },
+      {
+        "pagePath": "pages/arealist/arealist",
+        "text": "管理",
+        "iconPath": "/static/icon/people.png",
+        "selectedIconPath": "/static/icon/people_fill.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

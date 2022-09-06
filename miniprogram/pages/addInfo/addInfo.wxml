@@ -1,0 +1,20 @@
+<!--我也要用页面-->
+<view class="padding">
+<form bindsubmit="formSubmit" >
+
+ <view class="cu-form-group ">
+		<view class="title">单位名称</view>
+		<input name="name"  placeholder="请输入社区/小区的名称"></input>
+</view>
+
+ <view class="cu-form-group">
+		<view class="title">底图</view>
+		<input name="imageUrl"  placeholder="选择图片"></input>
+	</view> 
+  <view  class="flex margin-top">
+   <button  form-type="submit" class="cu-btn bg-blue lg">添加</button>
+  </view>
+</form>
+
+
+</view>

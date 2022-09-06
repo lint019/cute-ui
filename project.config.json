@@ -1,0 +1,131 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "nodeModules": true,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/center/center",
+          "pathName": "pages/center/center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/access/access",
+          "pathName": "pages/access/access",
+          "query": "community=ceshi",
+          "scene": 1011
+        },
+        {
+          "name": "pages/areainfo/areainfo",
+          "pathName": "pages/areainfo/areainfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/linkus/linkus",
+          "pathName": "pages/linkus/linkus",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/arealist/arealist",
+          "pathName": "pages/arealist/arealist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/qrcode/qrcode",
+          "pathName": "pages/qrcode/qrcode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/access/access",
+          "pathName": "pages/access/access",
+          "query": "scene= oMLGB4jyxsObVGssZeKDTlQghxA9",
+          "scene": 1011
+        },
+        {
+          "name": "pages/record/record",
+          "pathName": "pages/record/record",
+          "query": "scene=74b140b45e3e5f450c38f151527c94a0",
+          "scene": null
+        },
+        {
+          "name": "pages/weui/msg/msg",
+          "pathName": "pages/weui/msg/msg",
+          "query": "scene=74b140b45e3e5f450c38f151527c94a0",
+          "scene": null
+        },
+        {
+          "name": "pages/result/success/success",
+          "pathName": "pages/result/success/success",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/loginwx/loginwx",
+          "pathName": "pages/loginwx/loginwx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/push/push",
+          "pathName": "pages/push/push",
+          "query": "scene= oMLGB4jyxsObVGssZeKDTlQghxA9",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "scene= oMLGB4jyxsObVGssZeKDTlQghxA9",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "2.8.1",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wx2f2c85803e1d9a9b"
+}
