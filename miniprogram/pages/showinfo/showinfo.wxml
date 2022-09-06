@@ -1,6 +1,31 @@
 <!--我也要用页面-->
 <view class="padding" >
+  <view class="tittle text-left padding margin">{{selected_name}}</view>
 
-
+  <view class="hexuan blur radius  bg-purple">
+    <view class="flex  justify-center">
+      <view class="text-right grey-color">核酸检测</view>
+      <view class="cuIcon-right grey-color" ></view>
+    </view>
+    <view class="flex justify-center">
+    <view class="flex-sub  hx-number text-right">48</view>
+    <view class="flex-sub">
+      <view class="flex-wrap basis-df">小时</view>
+      <view class="flex-wrap basis-df">阴性</view>
+    </view>
+    </view>
+    <view class="text-center grey-color">{{check_date}}</view>
+  </view>
+  
+  <view class="flex flex-wrap justify-center yimiao blur radius  bg-purple">
+    <view class="flex  justify-center">
+      <view class="text-right text-black">新冠疫苗</view>
+      <view class="cuIcon-right text-black" ></view>
+    </view>
+    <view class="flex justify-center">
+    <view class="flex-sub text-xl text-green">已完成全程接种</view>    
+    </view>
+    <view class="text-center text-gray">{{check_date}}</view>
+  </view>
 
 </view>

@@ -10,7 +10,8 @@ Page({
     address: '',
     phonenumber:'',
     linkperson:'',
-    name:'',
+    selected_name:'深圳国际创新谷7栋A座',
+    check_date:'2022-09-15 04:30',
     list:utils.getInfoList(),
     show:true
   },

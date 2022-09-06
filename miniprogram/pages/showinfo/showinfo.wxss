@@ -5,4 +5,41 @@ page {
 background-repeat:no-repeat;
 background-size:100% 100%;
 -moz-background-size:100% 100%;
+
+
+}
+.tittle{
+  background-color: white;
+  position:absolute;
+  left:40px;
+  top:65px;
+  width:200px;
+  height:50px;
+  text-align:center;
+  font-size:42rpx;
+  font-weight: bolder;
+}
+.hexuan{
+  /* background-color: purple; */
+  position:absolute;
+  left:35px;
+  top:295px;
+  width:125px;
+  height:80px;
+  border-radius: 5rpx;
+}
+.hx-number{
+  font-size:72rpx;
+  font-weight: bolder;
+}
+.grey-color{
+  color:rgb(203, 203,203)
+}
+.yimiao{
+  position:absolute;
+  left:160px;
+  top:295px;
+  width:125px;
+  height:80px;  
+  background-color: rgb(203, 203,203);
 }
