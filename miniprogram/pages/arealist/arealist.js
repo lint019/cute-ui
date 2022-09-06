@@ -66,7 +66,7 @@ Page({
   },
   navToQrcodeScanPage:function(){
     wx.navigateTo({
-      url: '/pages/scanCode/scan',
+      url: '/pages/showinfo/showinfo',
     })
   },
 

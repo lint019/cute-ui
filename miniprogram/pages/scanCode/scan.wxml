@@ -11,6 +11,6 @@
 </view>
   <view class=" margin-top-xl ">
 
-    <view class="text-sm text-gray text-left padding margin cuIcon-creative">将该二维码保存到手机相册后，自行通过打印机打印该二维码，可将该二维码张贴在社区/小区出入口处，方便用户扫描登记。</view>
+    <view class="text-sm text-gray text-left padding margin cuIcon-creative">将该二。</view>
   </view>
 </view>

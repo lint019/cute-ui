@@ -19,15 +19,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    utils.SayGoodbye("oliver")
-    var list = utils.getInfoList()
-    if (list.length >0){
-      console.log("get one:"+list[0].name)
-    }
-    else{
-      console.log("infos json is empty!")
-    }
-    
+    wx.scanCode({
+      success (res) {
+        console.log(res)
+      }
+    })
+    wx.setTopBarText({
+      text: '粤康码场所通行',
+    })
   },
 
   /**

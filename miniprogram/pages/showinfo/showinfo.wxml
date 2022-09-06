@@ -1,31 +1,6 @@
 <!--我也要用页面-->
-<view class="padding">
-  <view class="cu-list menu-avatar">
-    <view  class="cu-item" wx:for="{{list}}" wx:key="index">      
-      <view class="content">
-        <view class="text-grey">{{item.name}}-{{item.url}}</view>
-        <view class="text-grey"></view>
-        <view class="text-grey">{{item.date}}</view>
-        <view class="text-gray text-sm flex">          
-        </view>
-      </view>
-    </view>
-  </view>
-<form bindsubmit="formSubmit" >
+<view class="padding" >
 
- <view class="cu-form-group ">
-		<view class="title">单位名称</view>
-		<input name="name"  placeholder="请输入社区/小区的名称"></input>
-</view>
-
- <view class="cu-form-group">
-		<view class="title">底图</view>
-		<input name="imageUrl"  placeholder="选择图片"></input>
-	</view> 
-  <view  class="flex margin-top">
-   <button  form-type="submit" class="cu-btn bg-blue lg">添加</button>
-  </view>
-</form>
 
 
 </view>
