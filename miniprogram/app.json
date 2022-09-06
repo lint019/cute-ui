@@ -29,7 +29,8 @@
     "pages/loginwx/loginwx",
     "pages/push/push",
     "pages/scanCode/scan",
-    "pages/addInfo/addInfo"
+    "pages/addInfo/addInfo",
+    "pages/showinfo/showinfo"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

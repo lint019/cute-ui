@@ -122,7 +122,7 @@
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
-  "libVersion": "2.8.1",
+  "libVersion": "2.16.1",
   "packOptions": {
     "ignore": [],
     "include": []
